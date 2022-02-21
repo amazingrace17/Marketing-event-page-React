@@ -24,16 +24,15 @@
   object-fit: cover;
 }
 .container2 {
-  width: 40%;
   display: flex;
   align-self: center;
   align-items: flex-start;
   flex-direction: column;
+  justify-content: flex-start;
   background-color: rgba(0, 0, 0, 0.88);
 }
 .Form {
   width: 100%;
-  height: 670px;
   padding: var(--dl-space-space-threeunits);
   position: relative;
   align-self: center;
@@ -47,7 +46,6 @@
 .textinput {
   width: 100%;
   height: var(--dl-size-size-small);
-  border-width: 0px;
   margin-bottom: var(--dl-space-space-unit);
 }
 .textinput1 {
@@ -55,43 +53,18 @@
   height: var(--dl-size-size-small);
   margin-bottom: var(--dl-space-space-unit);
 }
-.textinput2 {
-  width: 100%;
-  height: var(--dl-size-size-small);
-  margin-bottom: var(--dl-space-space-unit);
-}
-.textinput3 {
-  width: 100%;
-  height: var(--dl-size-size-small);
-  margin-bottom: var(--dl-space-space-unit);
-}
-.textinput4 {
-  width: 100%;
-  height: var(--dl-size-size-small);
-  margin-bottom: var(--dl-space-space-unit);
-}
-.textinput5 {
-  width: 100%;
-  height: var(--dl-size-size-small);
-  margin-bottom: var(--dl-space-space-unit);
-}
-.checkbox {
-  margin-bottom: var(--dl-space-space-unit);
-  list-style-type: disc;
-  list-style-image: none;
-  list-style-position: outside;
-}
-.text05 {
+.text2 {
   color: #ffffff;
   width: 100%;
   font-size: 14px;
-  margin-left: var(--dl-space-space-halfunit);
+  margin-left: 0px;
   text-transform: uppercase;
 }
 .button {
   color: #ffffff;
   width: 100%;
   height: var(--dl-size-size-small);
+  margin-top: var(--dl-space-space-unit);
   background-color: #4ab310;
 }
 .navlink {
@@ -99,15 +72,14 @@
   font-size: 30px;
   align-self: center;
   margin-top: var(--dl-space-space-oneandhalfunits);
-  margin-bottom: var(--dl-space-space-threeunits);
   text-decoration: none;
 }
-.text07 {
+.text4 {
   font-style: normal;
   text-align: center;
   font-weight: 700;
 }
-.text09 {
+.text6 {
   font-style: normal;
   font-weight: 700;
 }
